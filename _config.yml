@@ -15,7 +15,7 @@ google_verification:
 animated:             false
 show_related_posts:   false
 show_post_footers:    false
-show_social_icons:    false
+show_social_icons:    true
 ajaxify_contact_form: false
 
 # Disqus post comments
@@ -30,8 +30,8 @@ facebook_comments_number: 10
 
 # Social icons
 github_username:    PiotrJustyna
-bitbucket_username:
-stackoverflow_id:
+bitbucket_username: piotrjustyna
+stackoverflow_id:   piotr-justyna
 twitter_username:   LetZweindaut
 skype_username:
 steam_nickname:
@@ -46,15 +46,15 @@ flattr_button:
 # Post sharing icons
 show_sharing_icons: true
 # Change to 'true' to enable individual icons
-share_facebook: false
+share_facebook: true
 share_twitter: true
-share_googleplus: false
-share_linkedin: false
-share_digg: false
-share_tumblr: false
-share_reddit: false
-share_stumbleupon: false
-share_hackernews: false
+share_googleplus: true
+share_linkedin: true
+share_digg: true
+share_tumblr: true
+share_reddit: true
+share_stumbleupon: true
+share_hackernews: true
 
 text:
   pagination:
