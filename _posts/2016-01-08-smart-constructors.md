@@ -13,7 +13,7 @@ I've been learning and playing with Haskell on and off for over a year now and I
 
 Yay!
 
-{% highlight %}
+{% highlight bash %}
 piotr@mancave:~/Documents/Projects/roller$ ./bin/typestests
 "Verify show DieTerm."
 *** Failed! (after 21 tests and 6 shrinks):                               
@@ -23,44 +23,5 @@ Exception:
   Given number of dice: 0 (limit: 99).
   Given number of faces of each die: 100 (limit: 99).
 0
-100
-"Verify show AddedDieTerm."
-*** Failed! (after 20 tests and 3 shrinks):                               
-Exception:
-  Number of dice or number of faces of each die incorrect.
-  Details:
-  Given number of dice: 0 (limit: 99).
-  Given number of faces of each die: 100 (limit: 99).
-0
-100
-"Verify show SubtractedDieTerm."
-*** Failed! (after 21 tests and 4 shrinks):                               
-Exception:
-  Number of dice or number of faces of each die incorrect.
-  Details:
-  Given number of dice: 0 (limit: 99).
-  Given number of faces of each die: 100 (limit: 99).
-0
-100
-"Verify show ConstantTerm."
-*** Failed! (after 21 tests and 5 shrinks):                               
-Exception:
-  Constat incorrect.
-  Details:
-  Given constant: 100 (limit: 99).
-100
-"Verify show AddedConstantTerm."
-*** Failed! (after 22 tests and 3 shrinks):                               
-Exception:
-  Constat incorrect.
-  Details:
-  Given constant: 100 (limit: 99).
-100
-"Verify show SubtractedConstantTerm."
-*** Failed! (after 19 tests and 3 shrinks):                               
-Exception:
-  Constat incorrect.
-  Details:
-  Given constant: 100 (limit: 99).
 100
 {% endhighlight %}
