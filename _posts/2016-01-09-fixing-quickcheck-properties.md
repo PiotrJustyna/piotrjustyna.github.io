@@ -96,4 +96,4 @@ Other things to consider:
 * since I'm using smart constructors now, it would be a good idea to test them
 * since smart constructors take care of data checking I don't have to verify the "Show" implementation for incorrect inputs (as every incorrect input will not even make it to the ```show``` function - an error will be generated first)
 
-\**The code I'm writing here may not be immediately available in the repository (even in the **develop** branch).*
+\**The code I'm writing here may not be immediately available in the [roller](https://github.com/PiotrJustyna/roller) repository (even in the **develop** branch).*
