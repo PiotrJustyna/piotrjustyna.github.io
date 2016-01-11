@@ -2,7 +2,7 @@
 layout:     post
 title:      fun with photon
 date:       2016-01-11 20:38:00
-summary:    http-triggered sound generator.
+summary:    HTTP-triggered sound generator.
 ---
 
 ![](/images/IMG_20160111_222618_edit.jpg){:width="100%"}
