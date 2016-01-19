@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      audio library for photon
-date:       2016-01-15 20:46:00
+date:       2016-01-19 21:50:00
 summary:    Audio! Photon! Adventure!
 ---
 
