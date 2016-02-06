@@ -97,3 +97,18 @@ Other things to consider:
 * since smart constructors take care of data checking I don't have to verify the "Show" implementation for incorrect inputs (as every incorrect input will not even make it to the ```show``` function - an error will be generated first)
 
 \**The code I'm writing here may not be immediately available in the [roller](https://github.com/PiotrJustyna/roller) repository (even in the **develop** branch).*
+
+{% if post.comments %}
+<div id="disqus_thread"></div>
+<script>
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//piotrjustyna.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}

@@ -68,3 +68,18 @@ You can call the board using your favorite REST tool using the following URL:
 So simple!
 
 The code is also available [here](https://github.com/PiotrJustyna/photon-sandbox/tree/master/5_REST_Sound).
+
+{% if post.comments %}
+<div id="disqus_thread"></div>
+<script>
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//piotrjustyna.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}

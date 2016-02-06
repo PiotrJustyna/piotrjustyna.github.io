@@ -42,3 +42,18 @@ The code is tested and I confirm it's working on my Photon. The sound is a bit j
 This is probably not my last adventure with Photon audio, but that's a story for another day.
 
 Happy hacking!
+
+{% if post.comments %}
+<div id="disqus_thread"></div>
+<script>
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//piotrjustyna.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}
