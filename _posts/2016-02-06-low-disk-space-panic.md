@@ -24,3 +24,18 @@ And of course, Steam, photos and downloads are to blame. Here's a partial output
 I'm going to leave Pillars of Eternity installed. Who knows, maybe some day I'll get back to it. But photos can move to an external drive and I don't need the downloads anymore.
 
 Disk cleaned up, now I can write some code!
+
+{% if post.comments %}
+<div id="disqus_thread"></div>
+<script>
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//piotrjustyna.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}

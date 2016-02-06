@@ -20,7 +20,8 @@ ajaxify_contact_form: false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+comments: true
+disqus_shortname: PiotrJustyna
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
