@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      quickcheck and errors
-date:       2016-02-21 18:44:00
+date:       2016-02-23 23:15:00
 summary:    Pinning fussy smart constructors with quickcheck properties.
 ---
 
