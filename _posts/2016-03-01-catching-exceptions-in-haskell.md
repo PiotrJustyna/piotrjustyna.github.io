@@ -38,7 +38,7 @@ main = do
 Output:
 
 {% highlight bash %}
-Caught HelloWorld
+Caught HelloWorldException
 1{% endhighlight %}
 
 Which does work (well, does throw and does catch...) but I'm yet to discover if this is the way to deal with exceptions. For now it will suffice.
