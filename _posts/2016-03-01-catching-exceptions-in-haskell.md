@@ -2,7 +2,7 @@
 layout:     post
 title:      catching exceptions in haskell
 date:       2016-03-01 23:15:00
-summary:    Haskell & Exceptions - Hello World!
+summary:    Haskell and Exceptions - Hello World!
 ---
 
 I was going to go to bed earlier, but there's that one thing bugging me and it's Haskell exceptions. During one of my previous adventures with Haskell errors I struggled with handling them graciously in quickckeck properties. Then I read about [exceptions vs. errors](https://wiki.haskell.org/Error_vs._Exception), discovered that errors are probably not the best choice in expected, probable scenarios and suddenly wanted to start experimenting with exceptions.
